@@ -1,0 +1,69 @@
+:root{
+--primary:#90a4ae;
+--primaryDark:#c1d5e0;
+--primaryLight:#62757f;
+
+}
+.name{
+  background-color: var(--primary);
+font-family: "cooper black";
+
+}
+.navbar{
+  background-color:var(--primaryDark);
+  opacity:0.9;
+  padding-left:1em;
+}
+.subtitle{
+font-family:"monotype corsive";
+text-align: center;
+}
+.IntroImage img{
+  width: 200px;
+  height:200px;
+}
+.major,.department{
+text-align: center;
+display:block;
+}
+.heading1{
+
+  animation:slidehead .1s;
+}
+@keyframes slidehead {
+  0%{ opacity: 0.3;}
+ 100%{ opacity: 0.9;}
+
+}
+.card1{
+  filter:invert(100%);
+}
+.card2, {
+  margin: 1em;
+
+}
+.footer{
+  background-color: var(--primary);
+}
+.bold1{
+  font-size:32px;
+}
+.card-subtitle{
+font-size:14px;}
+.card{opacity:1px;
+margin:auto;
+box-shadow:2px 0px 3px
+   }
+.image1{
+width:50%;
+padding:1em;
+text-align:center;
+}
+.padding{
+  padding: 10px;
+}
+.btn1{
+margin:auto;
+  opacity:1px;
+  box-shadow:2px 0px 3px
+}
