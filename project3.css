@@ -28,7 +28,7 @@ display:block;
 }
 .heading1{
 
-  animation:slidehead .1s;
+  animation:slidehead .1s infinite;
 }
 @keyframes slidehead {
   0%{ opacity: 0.3;}
@@ -66,4 +66,20 @@ text-align:center;
 margin:auto;
   opacity:1px;
   box-shadow:2px 0px 3px
+}
+
+.sec1{
+  animation:slidesec1 .3s infinite;
+}
+@keyframes slidesec1 {
+  0%{ opacity: 0.3;}
+ 100%{ opacity: 0.9;}
+
+}
+.sec2{animation:slidesec2 .3s infinite;
+}
+@keyframes slidesec2 {
+0%{ opacity: 0.3;}
+100%{ opacity: 0.9;}
+
 }

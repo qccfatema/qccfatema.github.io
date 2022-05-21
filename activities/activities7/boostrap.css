@@ -1,0 +1,58 @@
+
+.image1{position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.herotitle{
+    position: absolute;
+
+top:95%;
+bottom:95%;
+left:20%;
+right: 20%;
+text-align: center;
+color: black;
+font-size: 35px;
+
+}
+
+.hero1{
+
+
+  position: absolute;
+top:180%;
+bottom:0%;
+left:20%;
+right: 20%;
+text-align: left;
+color: red;
+font-size: 35px;
+
+
+}
+
+
+.hero2{
+
+  position: absolute;
+top:180%;
+bottom:0%;
+left:20%;
+right: 20%;
+text-align: right;
+color: red;
+font-size: 35px;
+
+
+}
+.a{color: black;}
+
+.footer{
+background-color: lightblue;
+text-align: center;
+padding: 10px;
+
+}
